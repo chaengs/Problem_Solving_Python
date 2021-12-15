@@ -1,13 +1,19 @@
-# def example(moves) :
-#     for i in moves :
-#         print(i)
-#     return 
-# example([[0,0,0,0,0],[0,0,1,0,3],[0,2,5,0,1],[4,2,4,4,2],[3,5,1,3,1]])
-# arr = [];
-# arr.append
+# string = '~!@#$%^&*()=+[{]}:?,<>/'
+# str = '3'
+# length = len(str)
+# str2 = str.replace('3','')
+# print(str2)
 
-a = [1,2]
-b = [[6,7], [8,9]]
-for i in a:
-    for j in b:
-        print(j[i-1])
+# for i in range(len(string)) :
+#     j = string[i]
+#     # print(str.find(j))
+#     if str.find(j) != -1:
+#         str = str.strip(j)
+#         print(str)
+
+str = "...!@BaT#*..y.abcdefghijklm"
+
+if '..' in str:
+    while '..' in str :
+        str = str.replace('..','.')
+        print(str)
