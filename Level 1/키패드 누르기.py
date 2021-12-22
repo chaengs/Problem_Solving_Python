@@ -1,7 +1,7 @@
 def solution(numbers, hand):
     answer = ''
-    left = 10
-    right = 12
+    left = '*'
+    right = '#'
     #1,4,7은 L
     #3,6,9는 R
     #2,5,8,0은 각자 위치의 숫자의 차 절대값 구하기 -> 3으로 나눈 몫과 나머지로 이동 횟수를 구할 수 있음
